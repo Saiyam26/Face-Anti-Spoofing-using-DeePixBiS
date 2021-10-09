@@ -5,4 +5,6 @@ This is a Project only to learn and implement the DeePixBiS model, from the pape
 
 I have used PyTorch and OpenCV to implement the model. This project was heavily derived and inspired from https://github.com/voqtuyen/deep-pix-bis-pad.pytorch
 
-The Trained model is already up saved as './DeePixBiS.pth' file which can be run on the model.
+The Trained weights is already up saved as './DeePixBiS.pth' file which can be run on the model.
+
+Training Data has been taken from the NUAA dataset (863 images subset), can be found under data/images.zip
