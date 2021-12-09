@@ -31,3 +31,6 @@ The Loss function is a weighted sum using the binary and pixel-wise binary cross
 ### Recognizing
 1. Run `python Test.py`
 
+### TODO
+1. Make directories for easy handling of python files.
+2. Add a config file for easy hyperparameters tuning.
