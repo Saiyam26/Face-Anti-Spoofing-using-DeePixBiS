@@ -24,16 +24,10 @@ The Loss function is a weighted sum using the binary and pixel-wise binary cross
 - Numpy
 - PyTorch
 
-### Taking Photos
-1. Run `python TakePhotos.py`
-2. Enter an ID and Name
-3. Press the `s` key repeatedly to take photos, once a box appears around your face. It is recommended to take atleast 25 pictures.
-4. Press the `q` key when you're finished taking pictures.
-
 ### Training the Model
 1. Run `python Train.py`
-2. After Training is complete the program will generate the file "Classifiers/TrainedLBPH.yml"
+2. After Training is complete the program will generate the file "./DeePixBiS.pth", containing weights of the model
 
 ### Recognizing
-1. Run `python Recognize.py`
+1. Run `python Test.py`
 
